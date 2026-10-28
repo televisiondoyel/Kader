@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.product-card').forEach((card,i)=>{card.style.setProperty('--card-index',i)});});
