@@ -1,0 +1,1 @@
+<?php require dirname(__DIR__).'/config.php';$_SESSION=[];session_destroy();header('Location: login.php');exit;
